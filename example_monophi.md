@@ -1,4 +1,4 @@
-# mono&phi; example
+# mono-&phi; example
 
 Generate events in Madgraph as done for 1712.04939, 1707.05783:
 ```
