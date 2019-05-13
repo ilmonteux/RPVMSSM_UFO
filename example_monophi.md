@@ -57,7 +57,7 @@ In general, &phi; would have two decay channels open, `qq` and `q psi` but in th
 
 
 For scans over parameter space, one will want to modify the masses at each step.
-A small subtlety is that the hardcoded &\psi; width used above is incorrect for any other choice of masses. As explained above and in the [README](./README.md), cross sections reported by Madgraph could be wrong if the total width stored in the card is not the same as the width that it calculates for this decay chain.
+A small subtlety is that the hardcoded &psi; width used above is incorrect for any other choice of masses. As explained above and in the [README](./README.md), cross sections reported by Madgraph could be wrong if the total width stored in the card is not the same as the width that it calculates for this decay chain.
 In any case, we are only interested in the cross section times branching ratio into this signal. A simple solution is to set the total width of the squark to the partial width to quark-neutralino, which in turn can be computed by Madgraph by temporarily setting the RPV coupling to zero (or, one can also compute the partial width analytically and use `set width 2000002 <analytical_width>`). For example:
 
 ```
